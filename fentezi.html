@@ -7,37 +7,41 @@
 	</head>
 	
 	<body>
-		<table cellspacing="0" cellpadding="5" id="columns">
-			<tr>
-				<th id="main" colspan="12"><a href="syte.html">Локальная библиотека</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="4"><a href="popular.html">ПОПУЛЯРНЫЕ</a></th>
-				<th id="th" colspan="4"><a href="psihology.html">ПСИХОЛОГИЯ</a></th>
-				<th id="th" colspan="4"><a href="detective.html">ДЕТЕКТИВЫ</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="3"><a href="fentezi.html">ФЭНТЕЗИ</a></th>
-				<th id="th" colspan="3"><a href="fantastic.html">ФАНТАСТИКА</a></th>
-				<th id="th" colspan="3"><a href="russia.html">РУССКИЕ</a></th>
-				<th id="th" colspan="3"><a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a></th>
-			</tr>
-		</table>
+		<link rel='subresource' href='fentezi/*.png'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="topnav" id="myTopnav">
+			<a href="syte.html" class="active">Локальная библиотека</a>
+			<a href="popular.html">ПОПУЛЯРНЫЕ</a>
+			<a href="psihology.html">ПСИХОЛОГИЯ</a>
+			<a href="detective.html">ДЕТЕКТИВЫ</a>
+			<a href="fentezi.html">ФЭНТЕЗИ</a>
+			<a href="fantastic.html">ФАНТАСТИКА</a>
+			<a href="russia.html">РУССКИЕ</a>
+			<a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a>
+		</div>
 		<h4>Список авторов:</h4>
 		<ul>
-			<li><a href="fentezi/Aleksei_Pehov.html">Алексей Пехов</a></li>
-			<li><a href="fentezi/Andrei_Sapkovskii.html">Андрей Сапковский</a></li>
-			<li><a href="fentezi/Dj_K_Rouling.html">Дж. К. Роулинг</a></li>
-			<li><a href="fentezi/Dj_R_R_Tolkin.html">Дж. Р.Р. Толкин</a></li>
-			<li><a href="fentezi/Maks_Frai.html">Макс Фрай</a></li>
-			<li><a href="fentezi/Nik_Perumov.html">Ник Перумов</a></li>
-			<li><a href="fentezi/Robert_Asprin.html">Роберт Асприн</a></li>
-			<li><a href="fentezi/Robert_Govard.html">Роберт Говард</a></li>
-			<li><a href="fentezi/Robin_Hobb.html">Робин Хобб</a></li>
-			<li><a href="fentezi/Rodjer_Jelyaznu.html">Роджер Желязны</a></li>
-			<li><a href="fentezi/Terri_Gudkaind.html">Терри Гудкайнд</a></li>
-			<li><a href="fentezi/Turri_Pratchett.html">Турри Пратчетт</a></li>
-			<li><a href="fentezi/Ursula_K_Le_Guin.html">Урсула К.Ле Гуин</a></li>
+			<li><a href="fentezi/Aleksei_Pehov.html" class="text_img" data-img="fentezi/Aleksei_Pehov_Stat.png">Алексей Пехов</a></li>
+			<li><a href="fentezi/Andrei_Sapkovskii.html" class="text_img" data-img="fentezi/Andrei_Sapkovskii_Stat.png">Андрей Сапковский</a></li>
+			<li><a href="fentezi/Dj_K_Rouling.html" class="text_img" data-img="fentezi/Dj_K_Rouling_Stat.png">Дж. К. Роулинг</a></li>
+			<li><a href="fentezi/Dj_R_R_Tolkin.html" class="text_img" data-img="fentezi/Dj_R_R_Tolkin_Stat.png">Дж. Р.Р. Толкин</a></li>
+			<li><a href="fentezi/Maks_Frai.html" class="text_img" data-img="fentezi/Maks_Frai_Stat.png">Макс Фрай</a></li>
+			<li><a href="fentezi/Nik_Perumov.html" class="text_img" data-img="fentezi/Nik_Perumov_Stat.png">Ник Перумов</a></li>
+			<li><a href="fentezi/Robert_Asprin.html" class="text_img" data-img="fentezi/Robert_Asprin_Stat.png">Роберт Асприн</a></li>
+			<li><a href="fentezi/Robert_Govard.html" class="text_img" data-img="fentezi/Robert_Govard_Stat.png">Роберт Говард</a></li>
+			<li><a href="fentezi/Robin_Hobb.html" class="text_img" data-img="fentezi/Robin_Hobb_Stat.png">Робин Хобб</a></li>
+			<li><a href="fentezi/Rodjer_Jelyaznu.html" class="text_img" data-img="fentezi/Rodjer_Jelyaznu_Stat.png">Роджер Желязны</a></li>
+			<li><a href="fentezi/Terri_Gudkaind.html" class="text_img" data-img="fentezi/Terri_Gudkaind_Stat.png">Терри Гудкайнд</a></li>
+			<li><a href="fentezi/Turri_Pratchett.html" class="text_img" data-img="fentezi/Turri_Pratchett_Stat.png">Турри Пратчетт</a></li>
+			<li><a href="fentezi/Ursula_K_Le_Guin.html" class="text_img" data-img="fentezi/Ursula_K_Le_Guin_Stat.png">Урсула К.Ле Гуин</a></li>
 		</ul>
+		
+		<div id="showImgDiv">
+			<img src="/">
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

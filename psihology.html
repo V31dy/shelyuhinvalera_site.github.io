@@ -7,37 +7,41 @@
 	</head>
 	
 	<body>
-		<table cellspacing="0" cellpadding="5" id="columns">
-			<tr>
-				<th id="main" colspan="12"><a href="syte.html">Локальная библиотека</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="4"><a href="popular.html">ПОПУЛЯРНЫЕ</a></th>
-				<th id="th" colspan="4"><a href="psihology.html">ПСИХОЛОГИЯ</a></th>
-				<th id="th" colspan="4"><a href="detective.html">ДЕТЕКТИВЫ</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="3"><a href="fentezi.html">ФЭНТЕЗИ</a></th>
-				<th id="th" colspan="3"><a href="fantastic.html">ФАНТАСТИКА</a></th>
-				<th id="th" colspan="3"><a href="russia.html">РУССКИЕ</a></th>
-				<th id="th" colspan="3"><a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a></th>
-			</tr>
-		</table>
+		<link rel='subresource' href='psihology/*.png'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="topnav" id="myTopnav">
+			<a href="syte.html" class="active">Локальная библиотека</a>
+			<a href="popular.html">ПОПУЛЯРНЫЕ</a>
+			<a href="psihology.html">ПСИХОЛОГИЯ</a>
+			<a href="detective.html">ДЕТЕКТИВЫ</a>
+			<a href="fentezi.html">ФЭНТЕЗИ</a>
+			<a href="fantastic.html">ФАНТАСТИКА</a>
+			<a href="russia.html">РУССКИЕ</a>
+			<a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a>
+		</div>
 		<h4>Список авторов:</h4>
 		<ul>
-			<li><a href="psihology/Deil_Karnegi.html">Дейл Карнеги</a></li>
-			<li><a href="psihology/Djon_Grei.html">Джон Грей</a></li>
-			<li><a href="psihology/Erih_Fromm.html">Эрих Фромм</a></li>
-			<li><a href="psihology/Erik_Bern.html">Эрик Берн</a></li>
-			<li><a href="psihology/Geri_Chepmen.html">Гэри Чепмен</a></li>
-			<li><a href="psihology/Grethen_Rubin.html">Гретхен Рубин</a></li>
-			<li><a href="psihology/Irvin_Devid_Yalom.html">Ирвин Дэвид Ялом</a></li>
-			<li><a href="psihology/Leini_Martin_Olsen.html">Лэйни Мартин Ольсен</a></li>
-			<li><a href="psihology/Pol_Ekman.html">Пол Экман</a></li>
-			<li><a href="psihology/Robert_Chaldini.html">Роберт Чалдини</a></li>
-			<li><a href="psihology/Ute_Erhard.html">Уте Эрхард</a></li>
-			<li><a href="psihology/Viktor_Frankl.html">Виктор Франкл</a></li>
-			<li><a href="psihology/Zigmund_Phreid.html">Зигмунд Фрейд</a></li>
+			<li><a href="psihology/Deil_Karnegi.html" class="text_img" data-img="psihology/Deil_Karnegi_Stat.png">Дейл Карнеги</a></li>
+			<li><a href="psihology/Djon_Grei.html" class="text_img" data-img="psihology/Djon_Grei_Stat.png">Джон Грей</a></li>
+			<li><a href="psihology/Erih_Fromm.html" class="text_img" data-img="psihology/Erih_Fromm_Stat.png">Эрих Фромм</a></li>
+			<li><a href="psihology/Erik_Bern.html" class="text_img" data-img="psihology/Erik_Bern_Stat.png">Эрик Берн</a></li>
+			<li><a href="psihology/Geri_Chepmen.html" class="text_img" data-img="psihology/Geri_Chepmen_Stat.png">Гэри Чепмен</a></li>
+			<li><a href="psihology/Grethen_Rubin.html" class="text_img" data-img="psihology/Grethen_Rubin_Stat.png">Гретхен Рубин</a></li>
+			<li><a href="psihology/Irvin_Devid_Yalom.html" class="text_img" data-img="psihology/Irvin_Devid_Yalom_Stat.png">Ирвин Дэвид Ялом</a></li>
+			<li><a href="psihology/Leini_Martin_Olsen.html" class="text_img" data-img="psihology/Leini_Martin_Olsen_Stat.png">Лэйни Мартин Ольсен</a></li>
+			<li><a href="psihology/Pol_Ekman.html" class="text_img" data-img="psihology/Pol_Ekman_Stat.png">Пол Экман</a></li>
+			<li><a href="psihology/Robert_Chaldini.html" class="text_img" data-img="psihology/Robert_Chaldini_Stat.png">Роберт Чалдини</a></li>
+			<li><a href="psihology/Ute_Erhard.html" class="text_img" data-img="psihology/Ute_Erhard_Stat.png">Уте Эрхард</a></li>
+			<li><a href="psihology/Viktor_Frankl.html" class="text_img" data-img="psihology/Viktor_Frankl_Stat.png">Виктор Франкл</a></li>
+			<li><a href="psihology/Zigmund_Phreid.html" class="text_img" data-img="psihology/Zigmund_Phreid_Stat.png">Зигмунд Фрейд</a></li>
 		</ul>
+		
+		<div id="showImgDiv">
+			<img src="/">
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

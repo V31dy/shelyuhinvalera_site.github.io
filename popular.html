@@ -7,44 +7,50 @@
 	</head>
 	
 	<body>
-		<table cellspacing="0" cellpadding="5" id="columns">
-			<tr>
-				<th id="main" colspan="12"><a href="syte.html">Локальная библиотека</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="4"><a href="popular.html">ПОПУЛЯРНЫЕ</a></th>
-				<th id="th" colspan="4"><a href="psihology.html">ПСИХОЛОГИЯ</a></th>
-				<th id="th" colspan="4"><a href="detective.html">ДЕТЕКТИВЫ</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="3"><a href="fentezi.html">ФЭНТЕЗИ</a></th>
-				<th id="th" colspan="3"><a href="fantastic.html">ФАНТАСТИКА</a></th>
-				<th id="th" colspan="3"><a href="russia.html">РУССКИЕ</a></th>
-				<th id="th" colspan="3"><a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a></th>
-			</tr>
-		</table>
+		<link rel='subresource' href='popular/*.png'>
+		<link rel='subresource' href='russia/*.png'>
+		<link rel='subresource' href='zarubeg/*.png'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="topnav" id="myTopnav">
+			<a href="syte.html" class="active">Локальная библиотека</a>
+			<a href="popular.html">ПОПУЛЯРНЫЕ</a>
+			<a href="psihology.html">ПСИХОЛОГИЯ</a>
+			<a href="detective.html">ДЕТЕКТИВЫ</a>
+			<a href="fentezi.html">ФЭНТЕЗИ</a>
+			<a href="fantastic.html">ФАНТАСТИКА</a>
+			<a href="russia.html">РУССКИЕ</a>
+			<a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a>
+		</div>
 		<h4>Список авторов:</h4>
 		<ul>
-			<li><a href="popular/Aleksandr_Dyuma.html">Александр Дюма</a></li>
-			<li><a href="popular/Aleksandr_Kuprin.html">Александр Куприн</a></li>
-			<li><a href="popular/Aleksandr_Pushkin.html">Александр Пушкин</a></li>
-			<li><a href="popular/Brem_Stoker.html">Брэм Стокер</a></li>
-			<li><a href="popular/Djordj_R_R_Martin.html">Джордж Р.Р. Мартин</a></li>
-			<li><a href="popular/Dmitrii_Gluhovskii.html">Дмитрий Глуховский</a></li>
-			<li><a href="popular/Gerbert_Uells.html">Герберт Уэллс</a></li>
-			<li><a href="popular/Ivan_Turgenev.html">Иван Тургенев</a></li>
-			<li><a href="popular/Lev_Tolstoi.html">Лев Толстой</a></li>
-			<li><a href="popular/Phrensis_Skott_Phichdjerald.html">Фрэнсис Скотт Фицджеральд</a></li>
-			<li><a href="popular/Richard_Bah.html">Ричард Бах</a></li>
-			<li><a href="popular/Sharlotta_Bronte.html">Шарлотта Бронте</a></li>
-			<li><a href="popular/Syuzen_Kollinz.html">Сьюзен Коллинз</a></li>
-			<li><a href="./zarubeg/Jyul_Vern.html">Жюль Верн</a></li><!--popular.html-->
-			<li><a href="./zarubeg/Uilyam_Shekspir.html">Уильям Шекспир</a></li><!--popular.html-->
-			<li><a href="./russia/Anton_Chehov.html">Антон Чехов</a></li><!--popular.html-->
-			<li><a href="./russia/Fedor_Dostoevskii.html">Фёдор Достоевский</a></li><!--popular.html-->
-			<li><a href="./russia/Mihail_Bulgakov.html">Михаил Булгаков</a></li><!--popular.html-->
-			<li><a href="./russia/Nikolai_Gogol.html">Николай Гоголь</a></li><!--popular.html-->
-			<li><a href="./zarubeg/Djek_London.html">Джек Лондон</a></li><!--popular.html-->
+			<li><a href="popular/Aleksandr_Dyuma.html" class="text_img" data-img="popular/Aleksandr_Dyuma_Stat.png">Александр Дюма</a></li>
+			<li><a href="popular/Aleksandr_Kuprin.html" class="text_img" data-img="popular/Aleksandr_Kuprin_Stat.png">Александр Куприн</a></li>
+			<li><a href="popular/Aleksandr_Pushkin.html" class="text_img" data-img="popular/Aleksandr_Pushkin_Stat.png">Александр Пушкин</a></li>
+			<li><a href="popular/Brem_Stoker.html" class="text_img" data-img="popular/Brem_Stoker_Stat.png">Брэм Стокер</a></li>
+			<li><a href="popular/Djordj_R_R_Martin.html" class="text_img" data-img="popular/Djordj_R_R_Martin_Stat.png">Джордж Р.Р. Мартин</a></li>
+			<li><a href="popular/Dmitrii_Gluhovskii.html" class="text_img" data-img="popular/Dmitrii_Gluhovskii_Stat.png">Дмитрий Глуховский</a></li>
+			<li><a href="popular/Gerbert_Uells.html" class="text_img" data-img="popular/Gerbert_Uells_Stat.png">Герберт Уэллс</a></li>
+			<li><a href="popular/Ivan_Turgenev.html" class="text_img" data-img="popular/Ivan_Turgenev_Stat.png">Иван Тургенев</a></li>
+			<li><a href="popular/Lev_Tolstoi.html" class="text_img" data-img="popular/Lev_Tolstoi_Stat.png">Лев Толстой</a></li>
+			<li><a href="popular/Phrensis_Skott_Phichdjerald.html" class="text_img" data-img="popular/Phrensis_Skott_Phichdjerald_Stat.png">Фрэнсис Скотт Фицджеральд</a></li>
+			<li><a href="popular/Richard_Bah.html" class="text_img" data-img="popular/Richard_Bah_Stat.png">Ричард Бах</a></li>
+			<li><a href="popular/Sharlotta_Bronte.html" class="text_img" data-img="popular/Sharlotta_Bronte_Stat.png">Шарлотта Бронте</a></li>
+			<li><a href="popular/Syuzen_Kollinz.html" class="text_img" data-img="popular/Syuzen_Kollinz_Stat.png">Сьюзен Коллинз</a></li>
+			<li><a href="zarubeg/Jyul_Vern.html" class="text_img" data-img="zarubeg/Jyul_Vern_Stat.png">Жюль Верн</a></li><!--popular.html-->
+			<li><a href="zarubeg/Uilyam_Shekspir.html" class="text_img" data-img="zarubeg/Uilyam_Shekspir_Stat.png">Уильям Шекспир</a></li><!--popular.html-->
+			<li><a href="russia/Anton_Chehov.html" class="text_img" data-img="russia/Anton_Chehov_Stat.png">Антон Чехов</a></li><!--popular.html-->
+			<li><a href="russia/Fedor_Dostoevskii.html" class="text_img" data-img="russia/Fedor_Dostoevskii_Stat.png">Фёдор Достоевский</a></li><!--popular.html-->
+			<li><a href="russia/Mihail_Bulgakov.html" class="text_img" data-img="russia/Mihail_Bulgakov_Stat.png">Михаил Булгаков</a></li><!--popular.html-->
+			<li><a href="russia/Nikolai_Gogol.html" class="text_img" data-img="russia/Nikolai_Gogol_Stat.png">Николай Гоголь</a></li><!--popular.html-->
+			<li><a href="zarubeg/Djek_London.html" class="text_img" data-img="zarubeg/Djek_London_Stat.png">Джек Лондон</a></li><!--popular.html-->
 		</ul>
+		
+		<div id="showImgDiv">
+			<img src="/">
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

@@ -7,37 +7,41 @@
 	</head>
 	
 	<body>
-		<table cellspacing="0" cellpadding="5" id="columns">
-			<tr>
-				<th id="main" colspan="12"><a href="syte.html">Локальная библиотека</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="4"><a href="popular.html">ПОПУЛЯРНЫЕ</a></th>
-				<th id="th" colspan="4"><a href="psihology.html">ПСИХОЛОГИЯ</a></th>
-				<th id="th" colspan="4"><a href="detective.html">ДЕТЕКТИВЫ</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="3"><a href="fentezi.html">ФЭНТЕЗИ</a></th>
-				<th id="th" colspan="3"><a href="fantastic.html">ФАНТАСТИКА</a></th>
-				<th id="th" colspan="3"><a href="russia.html">РУССКИЕ</a></th>
-				<th id="th" colspan="3"><a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a></th>
-			</tr>
-		</table>
+		<link rel='subresource' href='russia/*.png'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="topnav" id="myTopnav">
+			<a href="syte.html" class="active">Локальная библиотека</a>
+			<a href="popular.html">ПОПУЛЯРНЫЕ</a>
+			<a href="psihology.html">ПСИХОЛОГИЯ</a>
+			<a href="detective.html">ДЕТЕКТИВЫ</a>
+			<a href="fentezi.html">ФЭНТЕЗИ</a>
+			<a href="fantastic.html">ФАНТАСТИКА</a>
+			<a href="russia.html">РУССКИЕ</a>
+			<a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a>
+		</div>
 		<h4>Список авторов:</h4>
 		<ul>
-			<li><a href="russia/Anton_Chehov.html">Антон Чехов</a></li><!--popular.html-->
-			<li><a href="russia/Boris_Posternak.html">Борис Пастернак</a></li>
-			<li><a href="russia/Boris_Vasilev.html">Борис Васильев</a></li>
-			<li><a href="russia/Eduard_Uspenskii.html">Эдуард Успенский</a></li>
-			<li><a href="russia/Evgenii_Grishkovech.html">Евгений Гришковец</a></li>
-			<li><a href="russia/Fedor_Dostoevskii.html">Фёдор Достоевский</a></li><!--popular.html-->
-			<li><a href="russia/Lyudmila_Ulichkaya.html">Людмила Улицкая</a></li>
-			<li><a href="russia/Mihail_Bulgakov.html">Михаил Булгаков</a></li><!--popular.html-->
-			<li><a href="russia/Nikolai_Gogol.html">Николай Гоголь</a></li><!--popular.html-->
-			<li><a href="russia/Viktor_Pelevin.html">Виктор Пелевин</a></li>
-			<li><a href="russia/Vladimir_Nabokov.html">Владимир Набоков</a></li>
-			<li><a href="russia/Vladimir_Sorokin.html">Владимир Сорокин</a></li>
-			<li><a href="russia/Zahar_Prilepin.html">Захар Прилепин</a></li>
+			<li><a href="russia/Anton_Chehov.html" class="text_img" data-img="russia/Anton_Chehov_Stat.png">Антон Чехов</a></li><!--popular.html-->
+			<li><a href="russia/Boris_Posternak.html" class="text_img" data-img="russia/Boris_Posternak_Stat.png">Борис Пастернак</a></li>
+			<li><a href="russia/Boris_Vasilev.html" class="text_img" data-img="russia/Boris_Vasilev_Stat.png">Борис Васильев</a></li>
+			<li><a href="russia/Eduard_Uspenskii.html" class="text_img" data-img="russia/Eduard_Uspenskii_Stat.png">Эдуард Успенский</a></li>
+			<li><a href="russia/Evgenii_Grishkovech.html" class="text_img" data-img="russia/Evgenii_Grishkovech_Stat.png">Евгений Гришковец</a></li>
+			<li><a href="russia/Fedor_Dostoevskii.html" class="text_img" data-img="russia/Fedor_Dostoevskii_Stat.png">Фёдор Достоевский</a></li><!--popular.html-->
+			<li><a href="russia/Lyudmila_Ulichkaya.html" class="text_img" data-img="russia/Lyudmila_Ulichkaya_Stat.png">Людмила Улицкая</a></li>
+			<li><a href="russia/Mihail_Bulgakov.html" class="text_img" data-img="russia/Mihail_Bulgakov_Stat.png">Михаил Булгаков</a></li><!--popular.html-->
+			<li><a href="russia/Nikolai_Gogol.html" class="text_img" data-img="russia/Nikolai_Gogol_Stat.png">Николай Гоголь</a></li><!--popular.html-->
+			<li><a href="russia/Viktor_Pelevin.html" class="text_img" data-img="russia/Viktor_Pelevin_Stat.png">Виктор Пелевин</a></li>
+			<li><a href="russia/Vladimir_Nabokov.html" class="text_img" data-img="russia/Vladimir_Nabokov_Stat.png">Владимир Набоков</a></li>
+			<li><a href="russia/Vladimir_Sorokin.html" class="text_img" data-img="russia/Vladimir_Sorokin_Stat.png">Владимир Сорокин</a></li>
+			<li><a href="russia/Zahar_Prilepin.html" class="text_img" data-img="russia/Zahar_Prilepin_Stat.png">Захар Прилепин</a></li>
 		</ul>
+		
+		<div id="showImgDiv">
+			<img src="/">
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>

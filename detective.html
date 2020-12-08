@@ -7,37 +7,41 @@
 	</head>
 	
 	<body>
-		<table cellspacing="0" cellpadding="5" id="columns">
-			<tr>
-				<th id="main" colspan="12"><a href="syte.html">Локальная библиотека</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="4"><a href="popular.html">ПОПУЛЯРНЫЕ</a></th>
-				<th id="th" colspan="4"><a href="psihology.html">ПСИХОЛОГИЯ</a></th>
-				<th id="th" colspan="4"><a href="detective.html">ДЕТЕКТИВЫ</a></th>
-			</tr>
-			<tr>
-				<th id="th" colspan="3"><a href="fentezi.html">ФЭНТЕЗИ</a></th>
-				<th id="th" colspan="3"><a href="fantastic.html">ФАНТАСТИКА</a></th>
-				<th id="th" colspan="3"><a href="russia.html">РУССКИЕ</a></th>
-				<th id="th" colspan="3"><a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a></th>
-			</tr>
-		</table>
+		<link rel='subresource' href='detective/*.png'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<div class="topnav" id="myTopnav">
+			<a href="syte.html" class="active">Локальная библиотека</a>
+			<a href="popular.html">ПОПУЛЯРНЫЕ</a>
+			<a href="psihology.html">ПСИХОЛОГИЯ</a>
+			<a href="detective.html">ДЕТЕКТИВЫ</a>
+			<a href="fentezi.html">ФЭНТЕЗИ</a>
+			<a href="fantastic.html">ФАНТАСТИКА</a>
+			<a href="russia.html">РУССКИЕ</a>
+			<a href="zarubeg.html">ЗАРУБЕЖНЫЕ</a>
+		</div>
 		<h4>Список авторов:</h4>
 		<ul>
-			<li><a href="detective/Artur_Konan_Doil.html">Артур Конан Дойл</a></li>
-			<li><a href="detective/Boris_Akunin.html">Борис Акунин</a></li>
-			<li><a href="detective/Den_Braun.html">Дэн Браун</a></li>
-			<li><a href="detective/Deshil_Hemmet.html">Дэшил Хэммет</a></li>
-			<li><a href="detective/Edgar_Allan_Po.html">Эдгар Аллан По</a></li>
-			<li><a href="detective/Erl_Stenli_Gardner.html">Эрл Стенли Гарднер</a></li>
-			<li><a href="detective/Jorj_Simenon.html">Жорж Сименон</a></li>
-			<li><a href="detective/Djeims_Hedli_Cheiz.html">Джеймс Хедли Чейз</a></li>
-			<li><a href="detective/Rainmond_Chandler.html">Райнмонд Чандлер</a></li>
-			<li><a href="detective/Reks_Staut.html">Рекс Стаут</a></li>
-			<li><a href="detective/Stig_Larsson.html">Стиг Ларссон</a></li>
-			<li><a href="detective/Uilki_Kollinz.html">Уилки Коллинз</a></li>
-			<li><a href="detective/Yan_Phleming.html">Ян Флеминг</a></li>
+			<li><a href="detective/Artur_Konan_Doil.html" class="text_img" data-img="detective/Artur_Konan_Doil_Stat.png">Артур Конан Дойл</a></li>
+			<li><a href="detective/Boris_Akunin.html" class="text_img" data-img="detective/Boris_Akunin_Stat.png">Борис Акунин</a></li>
+			<li><a href="detective/Den_Braun.html" class="text_img" data-img="detective/Den_Braun_Stat.png">Дэн Браун</a></li>
+			<li><a href="detective/Deshil_Hemmet.html" class="text_img" data-img="detective/Artur_Konan_Doil_Stat.png">Дэшил Хэммет</a></li>
+			<li><a href="detective/Edgar_Allan_Po.html" class="text_img" data-img="detective/Deshil_Hemmet_Stat.png">Эдгар Аллан По</a></li>
+			<li><a href="detective/Erl_Stenli_Gardner.html" class="text_img" data-img="detective/Erl_Stenli_Gardner_Stat.png">Эрл Стенли Гарднер</a></li>
+			<li><a href="detective/Jorj_Simenon.html" class="text_img" data-img="detective/Jorj_Simenon_Stat.png">Жорж Сименон</a></li>
+			<li><a href="detective/Djeims_Hedli_Cheiz.html" class="text_img" data-img="detective/Djeims_Hedli_Cheiz_Stat.png">Джеймс Хедли Чейз</a></li>
+			<li><a href="detective/Rainmond_Chandler.html" class="text_img" data-img="detective/Rainmond_Chandler_Stat.png">Райнмонд Чандлер</a></li>
+			<li><a href="detective/Reks_Staut.html" class="text_img" data-img="detective/Reks_Staut_Stat.png">Рекс Стаут</a></li>
+			<li><a href="detective/Stig_Larsson.html" class="text_img" data-img="detective/Stig_Larsson_Stat.png">Стиг Ларссон</a></li>
+			<li><a href="detective/Uilki_Kollinz.html" class="text_img" data-img="detective/Uilki_Kollinz_Stat.png">Уилки Коллинз</a></li>
+			<li><a href="detective/Yan_Phleming.html" class="text_img" data-img="detective/Yan_Phleming_Stat.png">Ян Флеминг</a></li>
 		</ul>
+		
+		<div id="showImgDiv">
+			<img src="/">
+		</div>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
