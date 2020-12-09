@@ -1,4 +1,4 @@
-img{
+#avatar {
 	width: 50%;
 	height: 50%;
 	max-height: 320px;
@@ -20,6 +20,8 @@ a{
 	text-decoration: none;
 }
 li{
+	max-height: 30px;
+	max-width: 350px;
 	font-size: 24px;
 	position: relative;
 }
@@ -28,7 +30,6 @@ li{
 	padding: 5px; 
 	background: gray; 
 	display: none;
-
 }
 .topnav {
     background-color: #333;
@@ -56,4 +57,45 @@ li{
 .active {
     background-color: #4CAF50;
     color: white;
+}
+#button-up {
+ display:none;
+ right: 0;
+ margin: 0;
+ position: fixed;
+ bottom: 50px;
+ outline:none;
+ width: 85px;
+ color: #e2c5b5;
+ line-height: 30px;
+ text-decoration: none;
+ padding: 0px 0 0 28px;
+ background: #176ceb;
+ font-size: 10pt;
+ text-align: left;
+ font-family: 'Press Start 2P', cursive;
+ border-radius: 0 4px 4px 0;
+ -webkit-border-radius: 0 4px 4px 0;
+ -webkit-transition: 0.3s ease;
+ -moz-border-radius: 0 4px 4px 0;
+ -o-border-radius: 0 4px 4px 0;
+ box-shadow: 0 2px 4px #999;
+ -webkit-box-shadow: 0 2px 4px #999;
+ -moz-box-shadow: 0 2px 4px #999;
+ -o-box-shadow: 0 2px 4px #999;
+ cursor:pointer;
+}
+#button-up:hover {
+ background: red;
+ transition: 0.3s;
+}
+#button-up:active {
+ background: #1E90FF;
+ transition: 0.2s;
+}
+#stat{
+	width: 50%;
+	height: 50%;
+	max-height: 640px;
+	max-width: 640px;
 }
