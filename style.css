@@ -100,29 +100,8 @@ li{
 		height: auto;
 	}
 	li{
-	max-height: 30px;
 	max-width: 500px;
 	font-size: 14px;
 	position: relative;
-	}
-	#button-up {
-	size: 32px;
-	}
-}
-@media(max-width: 978px){
-	img{
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: auto;
-	}
-	li{
-	max-height: 30px;
-	max-width: 500px;
-	font-size: 14px;
-	position: relative;
-	}
-	#button-up {
-	size: 32px;
 	}
 }
