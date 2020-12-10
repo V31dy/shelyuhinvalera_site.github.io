@@ -92,7 +92,7 @@ li{
 	max-height: 640px;
 	max-width: 640px;
 }
-@media(max-width: 968px){
+@media(max-width: 1000px){
 	img{
 		left: 0;
 		top: 0;
