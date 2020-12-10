@@ -4,14 +4,7 @@
 	max-height: 320px;
 	max-width: 320px;
 }
-@media(max-width: 768px){
-	img{
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: auto;
-	}
-}
+
 body{
 	background-image: url(fon.jpg);
 	background-attachment: fixed;
@@ -98,4 +91,18 @@ li{
 	height: 50%;
 	max-height: 640px;
 	max-width: 640px;
+}
+@media(max-width: 768px){
+	img{
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+	}
+	li{
+	max-height: 30px;
+	max-width: 500px;
+	font-size: 14px;
+	position: relative;
+	}
 }
